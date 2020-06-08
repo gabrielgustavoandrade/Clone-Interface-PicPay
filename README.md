@@ -5,6 +5,7 @@ Este é o repositório de um clone do aplicativo PicPay utilizando React Native,
 Este projeto utiliza o Expo.
 
 ##Instalação
+
 Você precisará ter apenas o NodeJS instalado na sua máquina, e após isso, clonar este repositório:
 
   ```
