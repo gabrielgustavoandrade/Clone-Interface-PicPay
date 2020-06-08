@@ -1,10 +1,17 @@
-import React from "react";
+import React, {useState} from "react";
 import { Feather, MaterialCommunityIcons, AntDesign } from "@expo/vector-icons";
 import styled from 'styled-components/native';
 
 const avatar = require("../../assets/avatar.png");
 
 const Activities = () => {
+
+  const [liked, setLiked] = useState(false);
+
+  function handleToogleLiked() {
+    setLiked((prevState) => !prevState);
+  }
+
   return (
     <Container>
       <Header>
@@ -44,9 +51,10 @@ const Activities = () => {
 
             <Option>
               <AntDesign
-                name="hearto"
+                name={liked ? "heart" : "hearto"}
                 size={14}
-                color="#fff"
+                color={liked ? "#0DB060" : "#fff"}
+                onPress={handleToogleLiked}
               />
               <OptionLabel>0</OptionLabel>
             </Option>

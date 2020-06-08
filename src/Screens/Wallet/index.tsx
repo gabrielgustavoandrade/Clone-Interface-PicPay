@@ -151,7 +151,7 @@ export const Info = styled.Text`
   font-weight: bold;
 `;
 
-export const Action = styled.View`
+export const Action = styled.TouchableOpacity`
   flex-direction: row;
   align-items: center;
   border: 1px solid rgba(255, 255, 255, 0.6);
@@ -162,7 +162,7 @@ export const Action = styled.View`
   margin: 0 10px;
 `;
 
-export const Actions = styled.TouchableOpacity`
+export const Actions = styled.View`
   flex-direction: row;
   margin-top: 40px;
 `;
