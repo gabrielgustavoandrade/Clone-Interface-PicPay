@@ -12,7 +12,7 @@ Este projeto utiliza o Expo.
 - [React Native](https://github.com/facebook/react-native)
 - [Styled Components](https://github.com/styled-components/styled-components)
 - [Expo](https://github.com/expo/expo)
-- [React Navigation](https://github.com/react-navigation/react-navigation);
+- [React Navigation](https://github.com/react-navigation/react-navigation)
 
 ## Como executar
 
