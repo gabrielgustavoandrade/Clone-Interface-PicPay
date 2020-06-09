@@ -7,9 +7,12 @@ const avatar = require("../../assets/avatar.png");
 const Activities = () => {
 
   const [liked, setLiked] = useState(false);
+  const [likedHeart, setLikedHeart] = useState(0);
 
   function handleToogleLiked() {
     setLiked((prevState) => !prevState);
+    if(liked) setLikedHeart(0);
+    else setLikedHeart(1);
   }
 
   return (
@@ -56,7 +59,7 @@ const Activities = () => {
                 color={liked ? "#0DB060" : "#fff"}
                 onPress={handleToogleLiked}
               />
-              <OptionLabel>0</OptionLabel>
+              <OptionLabel>{likedHeart}</OptionLabel>
             </Option>
           </Actions>
         </CardFooter>
