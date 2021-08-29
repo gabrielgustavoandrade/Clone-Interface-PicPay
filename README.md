@@ -1,10 +1,8 @@
 # Clone PicPay
 
-Este é o repositório de um clone do aplicativo PicPay utilizando React Native, Styled Components e React Navigation 5.
+This repo is a clone do PicPay app, built with React Native, Styled Componentes, React Navigation 5 and Expo.
 
-Este projeto utiliza o Expo.
-
-## Construído com
+## Built with 
 
 - [Node.js](https://github.com/nodejs/node)
 - [Yarn](https://github.com/yarnpkg/yarn)
@@ -14,26 +12,26 @@ Este projeto utiliza o Expo.
 - [Expo](https://github.com/expo/expo)
 - [React Navigation](https://github.com/react-navigation/react-navigation)
 
-## Como executar
+## How run
 
-Para executar a aplicação você irá precisar de:
+You will need:
 - [Node.js](https://github.com/nodejs/node)
 - [Yarn](https://github.com/yarnpkg/yarn)
 
 ```javascript
-// para baixar as dependências
+// to download depencies
 yarn
 
-//para executar
+// to run
 yarn start
 
 ```
-Obs.: Agora basta abrir o emulador pelo seu computador, ou o aplicativo do Expo no seu celular.
+Now is just open the emulator with your computer or the Expo app on cellphone.
 
-## Contato 
+## Contact
 ---
 [![linkedin](https://user-images.githubusercontent.com/54194337/83949361-be529580-a7f9-11ea-8cf6-bd38a1e8192f.png)][1]   [![gmail](https://user-images.githubusercontent.com/54194337/83949316-69168400-a7f9-11ea-9667-074e647a771b.png)][2]
 ---
-[1]: https://www.linkedin.com/in/gabriel-gustavo-4946b7174/
+[1]: http://linkedin.com/in/gabrielgustavoandrade
 [2]: mailto:gabrielgustavoandrade@gmail.com
 
